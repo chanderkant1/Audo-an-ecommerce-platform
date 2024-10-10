@@ -1,0 +1,13 @@
+.companieslist{
+    animation: 10s infinite linear moveimage;
+
+}
+/* key frame for animationmn */
+@keyframes moveimage {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -50%;
+    }
+}
